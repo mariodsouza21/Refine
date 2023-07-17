@@ -15,3 +15,4 @@ export function parseJwt(token: string): UserPayload {
 
   return JSON.parse(jsonPayload);
 }
+
